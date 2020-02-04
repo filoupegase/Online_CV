@@ -1,0 +1,35 @@
+html {
+  background-color: #EEEEEE;
+}
+
+body {
+  margin: auto;
+}
+
+.header {
+  background-color: rgb(217, 177, 140);
+  width: auto;
+  height: 250px;
+}
+
+.bigcontainer {
+  display: flex;
+}
+
+.container1 {
+  background-color: rgb(153, 230, 255);
+  height: 800px;
+  width: 600px;
+}
+
+.container2 {
+  background-color: rgb(255, 102, 102);
+  height: 800px;
+  width: 100%;
+}
+
+.footer {
+  background-color: rgb(179, 102, 255);
+  width: auto;
+  height: 250px;
+}
