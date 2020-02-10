@@ -4,15 +4,34 @@ html {
 
 body {
   margin: auto;
-  font-family: 'OpenSans-regular',Arial,Helvetica,sans-serif;
-}
-p {
-  font-size: 12px;
+  font-family: 'Helvetica Neue','OpenSans-regular',Arial,Helvetica,sans-serif;
+  color: #484848;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   margin-top: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 28px;
 }
+
+h2 {
+  margin-top: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 19px;
+}
+.titre {
+  margin-top: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+.titre-date {
+  margin-top: 0;
+  font-family: Tahoma, 'Geneva' ,'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  color: rgba(0,0,0,.6);
+}
+
+
 .header {
   background-color: #66d9ff;
   width: auto;
@@ -28,13 +47,14 @@ h1, h2, h3, h4, h5, h6 {
 /* container 1*/
 #container1 {
   height: auto;
-  width: 35%;
+  width: 30%;
 }
 
 .element {
   border-radius: 11px;
   box-shadow: 0 5px 40px 0 rgba(0,0,0,.09);
   margin: 0 15px 30px 0;
+  padding: 30px 40px;
 }
 
 .element:nth-child(1) {
@@ -70,13 +90,14 @@ h1, h2, h3, h4, h5, h6 {
 /* container 2*/
 #container2 {
   height: auto;
-  width: 75%;
+  width: 70%;
 }
 
 .element-2 {
   border-radius: 11px;
   box-shadow: 0 5px 40px 0 rgba(0,0,0,.09);
-    margin: 0 0px 30px 15px;
+  margin: 0 0px 30px 15px;
+  padding: 30px 40px;
 }
 
 .element-2:nth-child(1) {
@@ -92,6 +113,18 @@ h1, h2, h3, h4, h5, h6 {
 .element-2:nth-child(3) {
   background-color: white;
   height: auto;
+}
+
+.combo {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid;
+  border-color: #e6e6e6;
+}
+
+.combo-last {
+  margin-top: 35px;
+  margin-bottom: 10px;
 }
 
 /*              */
